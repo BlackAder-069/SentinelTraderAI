@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+scipy
+yfinance
+python-dotenv
+alpaca-trade-api
+langchain
+tiktoken
+openai
+chromadb
+transformers
+scikit-learn
+pytest
