@@ -30,7 +30,7 @@ class TraderAgent:
         if LanguageModel is not None and GEMINI_API_KEY:
             try:
                 self.model = LanguageModel(
-                    model_name="gpt-4o",
+                    model_name="gemini-1.5-pro",
                     openai_api_key=GEMINI_API_KEY,
                     temperature=0.0,
                     max_tokens=300,
